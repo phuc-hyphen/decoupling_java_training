@@ -27,7 +27,7 @@ public class Simulation {
     private boolean nextRound() {
         //TODO implement me
         long GuessNumber = player.askNextGuess();
-        logger.log(Long.toString(GuessNumber));
+//        logger.log(Long.toString(GuessNumber));
         if (GuessNumber == numberToGuess) {
 //            logger.log("Win");
             return true;
