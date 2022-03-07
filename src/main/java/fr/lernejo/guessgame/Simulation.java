@@ -33,7 +33,7 @@ public class Simulation {
             return true;
         }
         if (GuessNumber > numberToGuess) {
-            logger.log("Higher");
+            logger.log("Greater");
             player.respond(false);
             return false;
         }
