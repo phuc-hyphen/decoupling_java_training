@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77a9dbd-2c1f-4010-b429-4cc00315414f" name="Changes" comment="" />
+    <list default="true" id="b77a9dbd-2c1f-4010-b429-4cc00315414f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +53,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/fr/lernejo/Logger" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.lernejo.guessgame.Launcher" />
+      <module name="decoupling_java_training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.lernejo.guessgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
