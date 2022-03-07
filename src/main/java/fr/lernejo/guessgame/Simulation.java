@@ -3,6 +3,7 @@ package fr.lernejo.guessgame;
 import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
+import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class Simulation {
@@ -26,27 +27,37 @@ public class Simulation {
     private boolean nextRound() {
         //TODO implement me
         long GuessNumber = player.askNextGuess();
-        if(GuessNumber == numberToGuess ){
-            player.respond(true);
+        logger.log(Long.toString(GuessNumber));
+        if (GuessNumber == numberToGuess) {
+//            logger.log("Win");
             return true;
         }
-        if(GuessNumber > numberToGuess )
-        {
+        if (GuessNumber > numberToGuess) {
+            logger.log("Higher");
             player.respond(false);
-            System.out.println("Higher");
             return false;
         }
-        player.respond(false);
-        System.out.println("Lower");
+        logger.log("Lower");
+        player.respond(true);
         return false;
     }
 
-    public void loopUntilPlayerSucceed() {
+    public void loopUntilPlayerSucceed(long MaxIterations) {
         //TODO implement me
-        while (true)
-        {
-            if(nextRound())
+        long Start_TimeStamp = System.currentTimeMillis();
+        while (MaxIterations > 0) {
+            if (nextRound())
                 break;
+            MaxIterations -= 1;
         }
+        long End_TimeStamp = System.currentTimeMillis();
+        String TotalTime = new SimpleDateFormat("mm:ss.SSS").format(End_TimeStamp - Start_TimeStamp);
+        logger.log(TotalTime);
+        if (MaxIterations > 0)
+            logger.log("Won");
+        else
+            logger.log("Lose");
+
+
     }
 }

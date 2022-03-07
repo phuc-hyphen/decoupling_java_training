@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77a9dbd-2c1f-4010-b429-4cc00315414f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.lernejo.guessgame.Launcher" />
       <module name="decoupling_java_training" />
+      <option name="PROGRAM_PARAMETERS" value="-auto 134" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.lernejo.guessgame.*" />
