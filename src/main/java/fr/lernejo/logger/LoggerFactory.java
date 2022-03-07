@@ -1,4 +1,4 @@
-package fr.lernejo.Logger;
+package fr.lernejo.logger;
 
 public class LoggerFactory {
     public static Logger getLogger(String name){

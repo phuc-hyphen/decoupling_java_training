@@ -1,4 +1,4 @@
-package fr.lernejo.Logger;
+package fr.lernejo.logger;
 
 public class ConsoleLogger implements Logger{
     @Override
