@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77a9dbd-2c1f-4010-b429-4cc00315414f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/ContextualLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/Simulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/logger/LoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/logger/LoggerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/CompositeLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/LoggerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
