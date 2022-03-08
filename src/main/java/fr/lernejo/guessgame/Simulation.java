@@ -4,7 +4,6 @@ import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
 import java.text.SimpleDateFormat;
-import java.util.Scanner;
 
 public class Simulation {
     private final Logger logger = LoggerFactory.getLogger("simulation");

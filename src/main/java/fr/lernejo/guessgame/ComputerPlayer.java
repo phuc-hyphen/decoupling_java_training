@@ -3,8 +3,6 @@ package fr.lernejo.guessgame;
 import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
-import java.security.SecureRandom;
-
 public class ComputerPlayer implements Player {
     public static long max = Long.MAX_VALUE;
     public static long min = 0;
@@ -18,7 +16,7 @@ public class ComputerPlayer implements Player {
     @Override
     public void respond(boolean lowerOrGreater) { // false : guess > to find , true : guess < to find
         Logger logger = LoggerFactory.getLogger("Robot");
-//        logger.log(Long.toString(avg));
+        logger.log(Long.toString(avg));
         if (lowerOrGreater)
             min = avg;
         else
