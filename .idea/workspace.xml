@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77a9dbd-2c1f-4010-b429-4cc00315414f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/FilteredLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/ComputerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/decoupling_java_training/fr/lernejo/guessgame/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/ComputerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/guessgame/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/lernejo/logger/LoggerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

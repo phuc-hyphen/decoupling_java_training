@@ -4,7 +4,13 @@ import java.util.function.Predicate;
 
 public class FilteredLogger implements Logger {
     public final Logger delegate;
-    public final Predicate<String> Condition;
+    public static Predicate<String> Condition;
+
+    public FilteredLogger(Logger delegate, Predicate<String> condition) {
+        //TODO assign arguments to fields
+        this.delegate = delegate;
+        Condition = condition;
+    }
 
     @Override
     public void log(String message) {
@@ -12,9 +18,5 @@ public class FilteredLogger implements Logger {
             delegate.log(message);
     }
 
-    public FilteredLogger(Logger delegate, Predicate<String> condition) {
-        this.delegate = delegate;
-        //TODO assign arguments to fields
-        this.Condition = condition;
-    }
+
 }
